@@ -1,6 +1,6 @@
 import { HttpEvent, HttpHandler,HttpInterceptor,HttpInterceptorFn, HttpRequest } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Router } from 'express';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { AuthService } from '../services/auth.service';
 
